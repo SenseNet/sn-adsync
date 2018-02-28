@@ -17,7 +17,7 @@ This article is **for developers** about installing the [AD sync](/docs/adsync) 
 There are two packages - one for each sync direction:
 
 - Sync AD to Portal
-- Sync Portal to AD
+- Sync Portal to AD (*this feature is not yet supported in sensenet ECM 7*)
 
 You do not have to install both - only the one for the direction you plan to synchronize users and groups (*AD-to-portal* synchronization is used a lot more widely, because companies are used to managing their internal security structure in AD).
 
@@ -32,14 +32,10 @@ To get started, **stop your web site** and install the 'sync AD to portal' packa
 
 [![NuGet](https://img.shields.io/nuget/v/SenseNet.SyncAD2Portal.svg)](https://www.nuget.org/packages/SenseNet.SyncAD2Portal)
 
-> `Install-Package SenseNet.SyncAD2Portal -Pre`
+> `Install-Package SenseNet.SyncAD2Portal`
 
 ### Sync Portal to AD package
-The other direction (synchronizing users and groups from the Content Repository to AD) is included in the following package:
-
-[![NuGet](https://img.shields.io/nuget/v/SenseNet.SyncPortal2AD.svg)](https://www.nuget.org/packages/SenseNet.SyncPortal2AD)
-
-> `Install-Package SenseNet.SyncPortal2AD -Pre`
+> This feature is not yet supported in sensenet ECM 7.
 
 ## Installing the ad sync components in the repository
 To complete the install process, please execute the appropriate SnAdmin command as usual:
@@ -49,5 +45,7 @@ To complete the install process, please execute the appropriate SnAdmin command 
 
 ```text
 .\snadmin install-syncad2portal
-.\snadmin install-syncportal2ad
 ```
+
+## Deploying the executor
+For details about deploying the tool, please check out the [AD to Portal sync](/docs/sync-ad-to-portal) article.

@@ -12,7 +12,7 @@ description: At many companies users, groups and organization structure is store
 At many companies users, groups and organization structure is stored and maintained in **Active Directory** - or in another storage, synced to AD. This is why sensenet ECM is capable of synchronizing AD objects into both directions:
 
 - [AD to Portal sync](/docs/sync-ad-to-portal): AD users can be synchronized to the portal
-- [Portal to AD sync](/docs/sync-portal-to-ad): portal users can be synchronized to AD servers.
+- Portal to AD sync: portal users can be synchronized to AD servers (*this feature is not yet supported in sensenet ECM 7*).
 
 ![Active Directory](https://github.com/SenseNet/sn-adsync/raw/master/docs/images/adsync-adexplorer.png "Active Directory")
 
@@ -110,6 +110,8 @@ Notes:
 There is a way to authenticate users against an Active Directory even when using **Forms authentication** (instead of using Windows Integrated authentication). This means that when a portal user logs in with Forms authentication, his/her password is checked against the user's password set in an Active Directory server and not against the one given on the portal.
 
 #### Configuration
+> This feature is not yet supported in sensenet ECM 7.
+
 The settings for *forms authentication from AD* be found in the ```sensenet/formsAuthenticationFromAD``` section of the web.config. Below you can see a fully featured skeleton of this configuration:
 
 ```xml

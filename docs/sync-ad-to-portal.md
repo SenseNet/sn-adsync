@@ -11,8 +11,6 @@ description: Active Directory Synchronization is about replicating LDAP or porta
 # Sync Active Directory to the portal
 [Active Directory Synchronization](/docs/adsync) is about *replicating* LDAP or portal users, groups and other security-related entities in another server or repository. In case of 'AD to Portal' sync this means creating the same set of entities in the [Content Repository](/docs/content-repository) as in in **Active Directory (AD)**.
 
-> This article contains information about the tool available from **version 6.5.3 (Patch 5)**. For earlier versions please visit the [AD to Portal sync (old)](http://wiki.sensenet.com/AD_to_Portal_sync_(old)) article.
-
 The synchronization of users from Active Directory to the portal is performed by a [task executor](/docs/task-management#Task_Executor) tool. For details about deploying and managing task executors please visit the following article:
 
 - [Task Management: deploying executors](/docs/task-management-for-developers#Deploying_executor_tools)
@@ -52,9 +50,9 @@ The settings for AD to Portal sync can be found here:
 By navigating to this file in Content Explorer there are two ways to edit the settings:
 
 - In explore mode: we provide a graphical user interface to edit settings
-- Clinking on the *Edit in browser* link: the underlying JSON text can be found and edited in the browser's code editor
+- Clicking on the *Edit in browser* link: the underlying JSON text can be edited in the browser's code editor
 
-> Please note that all values (AD and Content Repository paths, property names, etc.) are **case sensitive**. Please use the exact same names here as the ones you see in the Active Directory.
+> Please note that all values (AD and Content Repository paths, property names, etc.) are **case sensitive**. Please use the exact same names here as the ones you see in Active Directory.
 
 The settings can be divided into the following main parts:
 
