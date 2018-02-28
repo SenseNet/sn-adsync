@@ -286,3 +286,7 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+/src/nuget/content-syncad2portal/Admin/tools/install-syncad2portal.zip
+/src/nuget/content-syncportal2ad/Admin/tools/install-syncportal2ad.zip
+/src/nuget/content-syncad2portal/TaskManagement/TaskExecutors/SyncAD2Portal

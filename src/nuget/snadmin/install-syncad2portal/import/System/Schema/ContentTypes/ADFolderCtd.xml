@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentType name="ADFolder" parentType="Folder" handler="SenseNet.ContentRepository.Security.ADSync.ADFolder" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-ADFolder,DisplayName</DisplayName>
+	<Description>$Ctd-ADFolder,Description</Description>
+	<Icon>Folder</Icon>
+  <AllowedChildTypes>
+    User,RegisteredUser,Group,OrganizationalUnit,ADFolder
+  </AllowedChildTypes>
+	<Fields>
+    <Field name="SyncGuid" type="ShortText">
+      <DisplayName>$Ctd-ADFolder,SyncGuid-DisplayName</DisplayName>
+      <Description>$Ctd-ADFolder,SyncGuid-Description</Description>
+      <Configuration>
+        <VisibleBrowse>Advanced</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+    <Field name="LastSync" type="DateTime">
+      <DisplayName>$Ctd-ADFolder,LastSync-DisplayName</DisplayName>
+      <Description>$Ctd-ADFolder,LastSync-Description</Description>
+      <Configuration>
+        <DateTimeMode>DateAndTime</DateTimeMode>
+        <VisibleBrowse>Advanced</VisibleBrowse>
+        <VisibleEdit>Advanced</VisibleEdit>
+        <VisibleNew>Hide</VisibleNew>
+      </Configuration>
+    </Field>
+  </Fields>
+</ContentType>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>ADSettings</ContentType>
+  <ContentName>SyncAD2Portal.settings</ContentName>
+  <Fields>
+    <Binary attachment="SyncAD2Portal.settings" />
+    <GlobalOnly>true</GlobalOnly>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

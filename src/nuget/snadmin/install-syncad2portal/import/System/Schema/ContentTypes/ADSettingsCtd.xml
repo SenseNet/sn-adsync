@@ -1,0 +1,5 @@
+<ContentType name="ADSettings" parentType="Settings" handler="SenseNet.ContentRepository.Security.ADSync.ADSettings" xmlns="http://schemas.sensenet.com/SenseNet/ContentRepository/ContentTypeDefinition">
+  <DisplayName>$Ctd-ADSettings,DisplayName</DisplayName>
+  <Description>$Ctd-ADSettings,Description</Description>
+  <Icon>Settings</Icon>
+</ContentType>

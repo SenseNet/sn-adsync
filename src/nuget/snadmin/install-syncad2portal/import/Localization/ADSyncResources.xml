@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources>
+  <ResourceClass name="ADSync">
+    <Languages>
+      <Language cultureName="en">
+        <data name="Enabled-DisplayName" xml:space="preserve">
+          <value>Enabled</value>
+        </data>
+        <data name="Servers-DisplayName" xml:space="preserve">
+          <value>Servers</value>
+        </data>
+        <data name="Name-DisplayName" xml:space="preserve">
+          <value>Name</value>
+        </data>
+        <data name="LdapServer-DisplayName" xml:space="preserve">
+          <value>LDAP Server</value>
+        </data>
+        <data name="Novell-DisplayName" xml:space="preserve">
+          <value>Novell eDirectory</value>
+        </data>
+        <data name="LogonCredentials-DisplayName" xml:space="preserve">
+          <value>Logon Credentials</value>
+        </data>
+        <data name="UseSsl-DisplayName" xml:space="preserve">
+          <value>Use SSL</value>
+        </data>
+        <data name="UseSasl-DisplayName" xml:space="preserve">
+          <value>Use SASL</value>
+        </data>
+        <data name="Port-DisplayName" xml:space="preserve">
+          <value>Port</value>
+        </data>
+        <data name="SyncEnabledState-DisplayName" xml:space="preserve">
+          <value>Sync Enabled State</value>
+        </data>
+        <data name="SyncUserName-DisplayName" xml:space="preserve">
+          <value>Sync User Name</value>
+        </data>
+        <data name="DeletedPortalObjectsPath-DisplayName" xml:space="preserve">
+          <value>Deleted Portal Objects Path</value>
+        </data>
+        <data name="UserType-DisplayName" xml:space="preserve">
+          <value>User Type</value>
+        </data>
+        <data name="Username-DisplayName" xml:space="preserve">
+          <value>Username</value>
+        </data>
+        <data name="Password-DisplayName" xml:space="preserve">
+          <value>Password</value>
+        </data>
+        <data name="Anonymous-DisplayName" xml:space="preserve">
+          <value>Anonymous</value>
+        </data>
+        <data name="AddNewServer" xml:space="preserve">
+          <value>Add new Server</value>
+        </data>
+        <data name="ServersGrid-DisplayName" xml:space="preserve">
+          <value>Servers</value>
+        </data>
+        <data name="PropertyMappingDefinitions-DisplayName" xml:space="preserve">
+          <value>Property Mapping Definitions</value>
+        </data>
+        <data name="EditServer" xml:space="preserve">
+          <value>Edit</value>
+        </data>
+        <data name="DeleteServer" xml:space="preserve">
+          <value>Delete</value>
+        </data>
+        <data name="EditSyncTree" xml:space="preserve">
+          <value>Edit</value>
+        </data>
+        <data name="DeleteSyncTree" xml:space="preserve">
+          <value>Delete</value>
+        </data>
+        <data name="Server-DisplayName" xml:space="preserve">
+          <value>Server</value>
+        </data>
+        <data name="BaseDN-DisplayName" xml:space="preserve">
+          <value>Base DN</value>
+        </data>
+        <data name="PortalPath-DisplayName" xml:space="preserve">
+          <value>Portal Path</value>
+        </data>
+        <data name="ADExceptions-DisplayName" xml:space="preserve">
+          <value>AD Exceptions</value>
+        </data>
+        <data name="SyncGroups-DisplayName" xml:space="preserve">
+          <value>Sync Groups</value>
+        </data>
+        <data name="SyncPhotos-DisplayName" xml:space="preserve">
+          <value>Sync Photos</value>
+        </data>
+        <data name="SyncTreesGrid-DisplayName" xml:space="preserve">
+          <value>SyncTrees</value>
+        </data>
+        <data name="AddNewSyncTree" xml:space="preserve">
+          <value>Add new SyncTree</value>
+        </data>
+        <data name="PropertyMappings-DisplayName" xml:space="preserve">
+          <value>Property Mappings</value>
+        </data>
+        <data name="Separator-DisplayName" xml:space="preserve">
+          <value>Separator</value>
+        </data>
+        <data name="ADProperties-DisplayName" xml:space="preserve">
+          <value>AD Properties</value>
+        </data>
+        <data name="PortalProperties-DisplayName" xml:space="preserve">
+          <value>Portal Properties</value>
+        </data>
+        <data name="EditADProperty" xml:space="preserve">
+          <value>Edit</value>
+        </data>
+        <data name="DeleteADProperty" xml:space="preserve">
+          <value>Delete</value>
+        </data>
+        <data name="EditPortalProperty" xml:space="preserve">
+          <value>Edit</value>
+        </data>
+        <data name="DeletePortalProperty" xml:space="preserve">
+          <value>Delete</value>
+        </data>
+        <data name="AddNewADProperty" xml:space="preserve">
+          <value>Add new AD Property</value>
+        </data>
+        <data name="AddNewPortalProperty" xml:space="preserve">
+          <value>Add new Portal Property</value>
+        </data>
+        <data name="Exception" xml:space="preserve">
+          <value>Exception</value>
+        </data>
+        <data name="AddNewException" xml:space="preserve">
+          <value>Add New Exception</value>
+        </data>
+        <data name="AddNewPropertyMappingDefinition" xml:space="preserve">
+          <value>Add New Property Mapping Definition</value>
+        </data>
+        <data name="PropertyMapping" xml:space="preserve">
+          <value>Property Mapping</value>
+        </data>
+        <data name="AddNewPropertyMapping" xml:space="preserve">
+          <value>Add New Property Mapping</value>
+        </data>
+        <data name="RequiredField" xml:space="preserve">
+          <value>Required field</value>
+        </data>
+        <data name="AdSyncIsDisabled" xml:space="preserve">
+          <value>Ad Sync Is Disabled</value>
+        </data>
+        <data name="ParallelOperations-DisplayName" xml:space="preserve">
+          <value>Parallel Operations</value>
+        </data>
+        <data name="Scheduling-DisplayName" xml:space="preserve">
+          <value>Scheduling</value>
+        </data>
+        <data name="Frequency-DisplayName" xml:space="preserve">
+          <value>Frequency</value>
+        </data>
+        <data name="ExactTime-DisplayName" xml:space="preserve">
+          <value>Exact time</value>
+        </data>
+        <data name="TrustWrongCertification-DisplayName" xml:space="preserve">
+          <value>Trust invalid certification</value>
+        </data>
+        <data name="UserFilter-DisplayName" xml:space="preserve">
+          <value>User filter</value>
+        </data>
+        <data name="GroupFilter-DisplayName" xml:space="preserve">
+          <value>Group filter</value>
+        </data>
+        <data name="ContainerFilter-DisplayName" xml:space="preserve">
+          <value>Container filter</value>
+        </data>
+        <data name="Enabled-Description" xml:space="preserve">
+          <value>Use this global switch to control whether Active Directory synchronization should be enabled or not.</value>
+        </data>
+        <data name="Scheduling-Description" xml:space="preserve">
+          <value><strong>Frequency</strong>: AD sync will start periodically when the given minutes have passed (starting from midnight).<br/><strong>Exact time</strong>: AD sync will start once a day at the given UTC time<br/><strong>Please note, that by setting up each of the scheduling data excludes the other!</strong></value>
+        </data>
+        <data name="ParallelOperations-Description" xml:space="preserve">
+          <value>How many parallel operations are allowed for the AD sync tool. More parallelism means faster sync but higher load on the server.</value>
+        </data>
+        <data name="LdapServer-Description" xml:space="preserve">
+          <value>Server IP address or fully qualified domain name.</value>
+        </data>
+        <data name="LogonCredentials-Description" xml:space="preserve">
+          <value>This must be a domain\username pair.</value>
+        </data>
+        <data name="TrustWrongCertification-Description" xml:space="preserve">
+          <value>If checked, certificate validation is skipped when connecting to AD.</value>
+        </data>
+        <data name="SyncEnabledState-Description" xml:space="preserve">
+          <value>Switch this off if you do not want users' enabled state to be synced from Active Directory.</value>
+        </data>
+        <data name="SyncUsername-Description" xml:space="preserve">
+          <value>Switch this off if you do not want users' username and login name to be synced from AD.</value>
+        </data>
+        <data name="UserType-Description" xml:space="preserve">
+          <value>This determines the Content Type of synchronized users in Sense/Net Content Repository (default is User).</value>
+        </data>
+        <data name="BaseDN-Description" xml:space="preserve">
+          <value>LDAP path of the container where sync should start (e.g. OU=MyOU,DC=example,DC=com).</value>
+        </data>
+        <data name="PortalPath-Description" xml:space="preserve">
+          <value>Content Repository path of the container that matches the AD container above (e.g. /Root/IMS/example/MyOrgUnit). If this cannot be inferred from the AD path, please create these content in the repository manually and set the appropriate AD GUID as their Sync GUID (see documentation for details).</value>
+        </data>
+        <data name="ADExceptions-Description" xml:space="preserve">
+          <value>You can provide LDAP paths of organizational units here that you want to skip during synchronization.</value>
+        </data>
+        <data name="UserFilter-Description" xml:space="preserve">
+          <value>Optional LDAP filter for users.</value>
+        </data>
+        <data name="ContainerFilter-Description" xml:space="preserve">
+          <value>Optional LDAP filter for organizational units.</value>
+        </data>
+        <data name="GroupFilter-Description" xml:space="preserve">
+          <value>Optional LDAP filter for groups.</value>
+        </data>
+        <data name="PropertyMappings-Description" xml:space="preserve">
+          <value>Here you can define property mappings that determine the target fields of synchronized AD properties. You can even split or merge values of properties into multiple fields.</value>
+        </data>
+      </Language>
+      <Language cultureName="hu">
+        <data name="Enabled-DisplayName" xml:space="preserve">
+          <value>Engedélyezve</value>
+        </data>
+        <data name="Servers-DisplayName" xml:space="preserve">
+          <value>Szerverek</value>
+        </data>
+        <data name="Name-DisplayName" xml:space="preserve">
+          <value>Név</value>
+        </data>
+        <data name="LdapServer-DisplayName" xml:space="preserve">
+          <value>LDAP szerver</value>
+        </data>
+        <data name="Novell-DisplayName" xml:space="preserve">
+          <value>Novell eDirectory</value>
+        </data>
+        <data name="LogonCredentials-DisplayName" xml:space="preserve">
+          <value>Belépési adatok</value>
+        </data>
+        <data name="UseSsl-DisplayName" xml:space="preserve">
+          <value>SSL használata</value>
+        </data>
+        <data name="UseSasl-DisplayName" xml:space="preserve">
+          <value>SASL használata</value>
+        </data>
+        <data name="Port-DisplayName" xml:space="preserve">
+          <value>Port</value>
+        </data>
+        <data name="SyncEnabledState-DisplayName" xml:space="preserve">
+          <value>Felhasználó státusz szinkronizálása</value>
+        </data>
+        <data name="SyncUserName-DisplayName" xml:space="preserve">
+          <value>Felhasználónév szinkronizálása</value>
+        </data>
+        <data name="DeletedPortalObjectsPath-DisplayName" xml:space="preserve">
+          <value>Törölt portál objektumok helye</value>
+        </data>
+        <data name="UserType-DisplayName" xml:space="preserve">
+          <value>Felhasználó típus</value>
+        </data>
+        <data name="Username-DisplayName" xml:space="preserve">
+          <value>Felhasználónév</value>
+        </data>
+        <data name="Password-DisplayName" xml:space="preserve">
+          <value>Jelszó</value>
+        </data>
+        <data name="Anonymous-DisplayName" xml:space="preserve">
+          <value>Anonymous</value>
+        </data>
+        <data name="AddNewServer" xml:space="preserve">
+          <value>Új szerver hozzáadása</value>
+        </data>
+        <data name="ServersGrid-DisplayName" xml:space="preserve">
+          <value>Szerverek</value>
+        </data>
+        <data name="EditServer" xml:space="preserve">
+          <value>Szerkesztés</value>
+        </data>
+        <data name="DeleteServer" xml:space="preserve">
+          <value>Törlés</value>
+        </data>
+        <data name="EditSyncTree" xml:space="preserve">
+          <value>Szerkesztés</value>
+        </data>
+        <data name="DeleteSyncTree" xml:space="preserve">
+          <value>Törlés</value>
+        </data>
+        <data name="Server-DisplayName" xml:space="preserve">
+          <value>Szerver</value>
+        </data>
+        <data name="BaseDN-DisplayName" xml:space="preserve">
+          <value>LDAP útvonal</value>
+        </data>
+        <data name="PortalPath-DisplayName" xml:space="preserve">
+          <value>Portál útvonal</value>
+        </data>
+        <data name="ADExceptions-DisplayName" xml:space="preserve">
+          <value>AD kivételek</value>
+        </data>
+        <data name="SyncGroups-DisplayName" xml:space="preserve">
+          <value>Csoportok szinkronizálása</value>
+        </data>
+        <data name="SyncPhotos-DisplayName" xml:space="preserve">
+          <value>Képek szinkronizálása</value>
+        </data>
+        <data name="SyncTreesGrid-DisplayName" xml:space="preserve">
+          <value>Szinkronizált egységek</value>
+        </data>
+        <data name="AddNewSyncTree" xml:space="preserve">
+          <value>Új szinkronizált egység</value>
+        </data>
+        <data name="PropertyMappingDefinitions-DisplayName" xml:space="preserve">
+          <value>Mező-összerendelés gyűjtemények</value>
+        </data>
+        <data name="PropertyMappings-DisplayName" xml:space="preserve">
+          <value>Mező-összerendelések</value>
+        </data>
+        <data name="Separator-DisplayName" xml:space="preserve">
+          <value>Elválasztó</value>
+        </data>
+        <data name="ADProperties-DisplayName" xml:space="preserve">
+          <value>AD mezők</value>
+        </data>
+        <data name="PortalProperties-DisplayName" xml:space="preserve">
+          <value>Portál mezők</value>
+        </data>
+        <data name="EditADProperty" xml:space="preserve">
+          <value>Szerkesztés</value>
+        </data>
+        <data name="DeleteADProperty" xml:space="preserve">
+          <value>Törlés</value>
+        </data>
+        <data name="EditPortalProperty" xml:space="preserve">
+          <value>Szerkesztés</value>
+        </data>
+        <data name="DeletePortalProperty" xml:space="preserve">
+          <value>Törlés</value>
+        </data>
+        <data name="AddNewADProperty" xml:space="preserve">
+          <value>Új AD mező</value>
+        </data>
+        <data name="AddNewPortalProperty" xml:space="preserve">
+          <value>Új portál mező</value>
+        </data>
+        <data name="Exception" xml:space="preserve">
+          <value>Kivétel</value>
+        </data>
+        <data name="AddNewException" xml:space="preserve">
+          <value>Új kivétel</value>
+        </data>
+        <data name="AddNewPropertyMappingDefinition" xml:space="preserve">
+          <value>Új mező-összerendelés gyűjtemény</value>
+        </data>
+        <data name="AddNewPropertyMapping" xml:space="preserve">
+          <value>Új mező-összerendelés</value>
+        </data>
+        <data name="PropertyMapping" xml:space="preserve">
+          <value>Mező-összerendelés</value>
+        </data>
+        <data name="RequiredField" xml:space="preserve">
+          <value>Kötelező mező</value>
+        </data>
+        <data name="AdSyncIsDisabled" xml:space="preserve">
+          <value>AD szinkron kikapcsolva</value>
+        </data>
+        <data name="ParallelOperations-DisplayName" xml:space="preserve">
+          <value>Párhuzamos műveletek</value>
+        </data>
+        <data name="Scheduling-DisplayName" xml:space="preserve">
+          <value>Időzítés</value>
+        </data>
+        <data name="Frequency-DisplayName" xml:space="preserve">
+          <value>Ismétlődő</value>
+        </data>
+        <data name="ExactTime-DisplayName" xml:space="preserve">
+          <value>Időpont</value>
+        </data>
+        <data name="TrustWrongCertification-DisplayName" xml:space="preserve">
+          <value>Hibás tanúsítvány elfogadása</value>
+        </data>
+        <data name="UserFilter-DisplayName" xml:space="preserve">
+          <value>Felhasználó szűrő</value>
+        </data>
+        <data name="GroupFilter-DisplayName" xml:space="preserve">
+          <value>Csoport szűrő</value>
+        </data>
+        <data name="ContainerFilter-DisplayName" xml:space="preserve">
+          <value>Szervezeti egység szűrő</value>
+        </data>
+        <data name="Enabled-Description" xml:space="preserve">
+          <value>Ez a kapcsoló szabályozza, hogy a rendszerben futhat-e Active Directory szinkronizáció.</value>
+        </data>
+        <data name="Scheduling-Description" xml:space="preserve">
+          <value><strong>Ismétlődő</strong>: az AD szinkron mindig lefut, ha letelt az itt megadott számú perc (éjféltől kezdve).<br/>
+<strong>Időpont</strong>: Naponta csak egyszer fog futni az AD szinkron a megadott UTC időpontban (ez az opció csak akkor működik, ha az Ismétlődés 0).</value>
+        </data>
+        <data name="ParallelOperations-Description" xml:space="preserve">
+          <value>Hány szálon futhat az AD objektumok szinronizálása (pl. felhasználók mentésekor). Nagyobb érték gyorsabb szinkronizálást, de nagyobb portál terhelést jelent.</value>
+        </data>
+        <data name="LdapServer-Description" xml:space="preserve">
+          <value>IP cím vagy domain név.</value>
+        </data>
+        <data name="LogonCredentials-Description" xml:space="preserve">
+          <value>Felhasználónév domain\username formában.</value>
+        </data>
+        <data name="TrustWrongCertification-Description" xml:space="preserve">
+          <value>Tanúsítvány-ellenőrzés kihagyása.</value>
+        </data>
+        <data name="SyncEnabledState-Description" xml:space="preserve">
+          <value>Ha kikapcsolja, a felhasználók állapota nem fog szinkronizálódni az AD-ból.</value>
+        </data>
+        <data name="SyncUsername-Description" xml:space="preserve">
+          <value>Portál felhasználók felhasználói neve és login neve legyen ugyanaz, mint az AD-ban.</value>
+        </data>
+        <data name="UserType-Description" xml:space="preserve">
+          <value>A szinkronizált felhasználók tartalom típusa a Content Repository-ban (alapértelmezett: User).</value>
+        </data>
+        <data name="BaseDN-Description" xml:space="preserve">
+          <value>A szinkronizálandó objektum (domain vagy szervezeti egység) LDAP útvonala (pl. OU=MyOU,DC=example,DC=com).</value>
+        </data>
+        <data name="PortalPath-Description" xml:space="preserve">
+          <value>A fenti AD útvonalnak megfelelő portál path (pl. /Root/IMS/example/MyOrgUnit). Ha a kettő nem feleltethető meg egymásnak, akkor kézzel létre kell hozni a megfelelő domaint-t és szervezeti egységet a portálban, és beállítani rajtuk az AD-ban található egyedi azonosítót (Sync GUID).</value>
+        </data>
+        <data name="ADExceptions-Description" xml:space="preserve">
+          <value>Itt megadhatja olyan szervezeti egységek LDAP útvonalát, amelyeket szeretne kihagyni a szinkronizálásból.</value>
+        </data>
+        <data name="UserFilter-Description" xml:space="preserve">
+          <value>LDAP szűrő, amellyel szűkítheti a szinkronizált felhasználók körét.</value>
+        </data>
+        <data name="ContainerFilter-Description" xml:space="preserve">
+          <value>LDAP szűrő, amellyel szűkítheti a szinkronizált szervezeti egységek körét.</value>
+        </data>
+        <data name="GroupFilter-Description" xml:space="preserve">
+          <value>LDAP szűrő, amellyel szűkítheti a szinkronizált csoportok körét.</value>
+        </data>
+        <data name="PropertyMappings-Description" xml:space="preserve">
+          <value>Az itt látható mező-összerendelések határozzák meg, hogy az egyes AD mezők melyik (egy vagy több) portál mezőbe másolódnak szinkronizálás során.</value>
+        </data>
+      </Language>
+    </Languages>
+  </ResourceClass>
+</Resources>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>Page</ContentType>
+  <ContentName>Explore</ContentName>
+  <Fields>
+    <PageTemplateNode>
+      <Path>/Root/Global/pagetemplates/sn-layout-explore.html</Path>
+    </PageTemplateNode>
+    <PageSkin>
+      <Path>/Root/Skins/sensenet</Path>
+    </PageSkin>
+    <PersonalizationSettings attachment="Explore.PersonalizationSettings" />
+    <DisplayName><![CDATA[$Action,Explore]]></DisplayName>
+    <Icon><![CDATA[explore]]></Icon>
+    <VersioningMode>1</VersioningMode>
+    <InheritableVersioningMode>1</InheritableVersioningMode>
+    <ApprovingMode>1</ApprovingMode>
+    <InheritableApprovingMode>1</InheritableApprovingMode>
+  </Fields>
+  <Permissions>
+    <Clear />
+	<Identity path="/Root/IMS/BuiltIn/Portal/ContentExplorers">
+		<RunApplication>Allow</RunApplication>
+    </Identity>
+  </Permissions>
+</ContentMetaData>

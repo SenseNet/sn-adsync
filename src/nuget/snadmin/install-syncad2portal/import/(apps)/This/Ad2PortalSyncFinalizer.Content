@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentMetaData>
+  <ContentType>GenericODataApplication</ContentType>
+  <ContentName>Ad2PortalSyncFinalizer</ContentName>
+  <Fields>
+    <ClassName><![CDATA[SenseNet.ContentRepository.RepositoryTools]]></ClassName>
+    <MethodName><![CDATA[Ad2PortalSyncFinalizer]]></MethodName>
+    <DisplayName><![CDATA[Ad2PortalSyncFinalizer]]></DisplayName>
+    <ActionTypeName><![CDATA[GenericODataOperation]]></ActionTypeName>
+    <Parameters><![CDATA[SenseNet.TaskManagement.Core.SnTaskResult result]]></Parameters>
+  </Fields>
+  <Permissions>
+    <Clear />
+  </Permissions>
+</ContentMetaData>

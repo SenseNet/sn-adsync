@@ -1,0 +1,515 @@
+﻿@import url('/Root/Global/styles/fontawesome/font-awesome.min.css');
+@import url('/Root/Global/styles/kendoui/kendo.common.min.css');
+@import url('/Root/Global/styles/kendoui/kendo.material.min.css');
+
+
+.sn-formrow, .sn-editor-form h1 {
+    position: relative;
+}
+
+.sn-editor-form h1 {
+    font-weight: normal;
+}
+
+.sn-panel.sn-buttons,
+.sn-editor-form {
+    width: 916px;
+    margin: 0 auto;
+}
+
+label.km-required::after {
+    content: '*';
+    color: #c0392b;
+    position: absolute;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#scheduling-group .sn-formrow::before {
+    content: '\f192';
+    font-family: fontawesome;
+    margin-right: 10px;
+    font-size: 1.1em;
+}
+
+#scheduling-group .sn-formrow.disabled::before {
+    content: '\f10c';
+    font-family: fontawesome;
+    margin-right: 10px;
+    font-size: 1.1em;
+}
+
+#scheduling-group .k-input {
+    width: 140px;
+    box-sizing: border-box;
+    background: transparent;
+    padding-right: 0;
+    box-shadow: none;
+}
+
+#scheduling-group .k-picker-wrap.k-state-default {
+    border: none;
+    box-shadow: none;
+}
+
+#scheduling-group .k-picker-wrap.k-state-hover > .k-select,
+#scheduling-group .k-picker-wrap.k-state-selected > .k-select {
+    background: #007dc2;
+}
+
+#scheduling-group .k-picker-wrap.k-state-hover, .k-textbox:hover,
+#scheduling-group .k-picker-wrap.k-state-selected {
+    box-shadow: none;
+}
+
+#scheduling-group .k-picker-wrap .k-icon {
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 0 0 -7px;
+}
+
+.k-grid-header th.k-header > .k-link {
+    white-space: normal;
+}
+
+.k-grid td {
+    max-width: 100px;
+}
+
+.k-window {
+    background: #fff;
+}
+
+.k-window-content {
+    overflow: hidden !important;
+    background-color: #fafafa;
+}
+
+.sn-editor-form .sn-grid td a.k-button.k-button-icontext {
+    min-width: 10px;
+    display: inherit;
+}
+
+td .k-button .k-icon {
+    margin: 0 auto;
+    width: 0;
+}
+
+.sn-editor-form .sn-icon {
+    width: 16px;
+    height: 16px;
+    margin: 0 auto;
+}
+
+.sn-icon.sn-icon-inline {
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+.sn-icon.sn-icon-true {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: .25em;
+    background-color: #5cb85c;
+    font-family: inherit;
+}
+
+.sn-icon.sn-icon-false {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: .25em;
+    background-color: #d9534f;
+    font-family: inherit;
+}
+
+.sn-icon-open {
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    font-size: 17px;
+    margin-top: 5px !important;
+}
+
+.sn-inner-form.sn-propertymapping {
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 20px;
+}
+
+.sn-adsync-mapping-listitem {
+    margin-bottom: 10px;
+}
+
+.sn-gridrow {
+    margin: 20px 0;
+}
+
+.sn-adsync-mapping-listitem-inner {
+    padding: 20px;
+}
+
+    .sn-gridrow h3, .sn-propertymapping .sn-formrow label, .sn-adsync-mapping-listitem-inner .sn-formrow label {
+        display: inline-block;
+        width: 39%;
+        margin: 0;
+        vertical-align: top;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .sn-propertymapping .sn-formrow label, .sn-adsync-mapping-listitem-inner .sn-formrow label {
+        vertical-align: middle;
+    }
+
+.sn-formrow label, .sn-formrow input, .sn-formrow .sn-field-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.k-widget.k-tooltip.k-popup {
+    text-align: left;
+    overflow: hidden;
+    white-space: pre-wrap; /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap; /* Opera <7 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* IE */
+}
+
+.sn-gridrow .sn-grid {
+    display: inline-block;
+    width: 60%;
+}
+
+td.k-detail-cell > div {
+    padding: 5px;
+}
+
+.k-grid tbody td[role=gridcell]:last-of-type {
+    width: 40px;
+}
+
+.sn-field-info {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+    .sn-field-info .sn-icon {
+        display: inline;
+        vertical-align: middle;
+        color: #2980b9;
+        font-size: 1rem;
+    }
+
+    .sn-field-info .sn-field-info-text {
+        color: #2980b9;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+
+.sn-editor-form .sn-info::before {
+    content: '\f06a';
+    font-family: fontawesome;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+.sn-editor-form .sn-info {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    line-height: 1.5rem;
+}
+
+.k-window-content .k-add::before,
+.sn-editor-form .k-button-icontext .k-add::before {
+    font-family: FontAwesome;
+    content: '\f067';
+    color: #007DC6;
+    display: block;
+    font-size: .7rem;
+    margin: 8px 0;
+}
+
+.k-window-content .k-button-icontext:hover .k-add::before,
+.sn-editor-form .k-button-icontext:hover .k-add::before {
+    color: #333;
+}
+
+.k-window-content .k-add,
+.sn-editor-form .k-add {
+    background: none;
+}
+
+.k-window-content .k-grid-add:hover .k-add,
+.k-grid .k-grid-add:hover .k-add {
+    background-position: -32px -64px;
+}
+
+.sn-inner-form.sn-adsync-mapping-list .k-grid-add {
+    padding: 9px;
+}
+
+.k-window-titlebar .k-state-hover {
+    background: #007dc2;
+}
+
+label[for="chekbox-Enabled"] {
+    font-size: 24px;
+}
+
+.sn-fieldgroup {
+    margin-bottom: 1.67em;
+}
+
+    .sn-fieldgroup label {
+        width: 240px;
+    }
+
+    .sn-fieldgroup > .sn-formrow {
+        margin-bottom: 5px;
+    }
+
+    .sn-fieldgroup + .sn-formrow label {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+.sn-editor-form > .sn-formrow > label {
+    width: 250px;
+}
+
+.sn-fieldgroup + .sn-formrow > * {
+    vertical-align: middle;
+}
+
+input#numeric-textbox-ParallelOperations {
+    width: 140px;
+    box-sizing: border-box;
+}
+
+.sn-editor-form > * > .sn-field-info {
+    position: absolute;
+    left: 410px;
+    top: 5px;
+}
+
+input.k-input {
+    text-indent: 0;
+    padding: 2px;
+    line-height: 19px;
+}
+
+select {
+    border-color: #f0f0f0;
+    padding: 2px;
+}
+
+.k-window .sn-formrow label {
+    width: 70px;
+    display: inline-block;
+    padding: 9px 0;
+}
+
+.k-window .k-state-hover .k-select,
+.k-window .k-select:hover {
+    background-color: #007dc2;
+}
+
+div.sn-adsync-mapping-listitem {
+    border: 1px solid #e6e6e6;
+    padding: 5px;
+}
+
+.sn-adsync-mapping-listitem > .sn-formrow:first-of-type {
+    background: #fafafa;
+    margin: -5px;
+    padding: 5px;
+}
+
+    .sn-adsync-mapping-listitem > .sn-formrow:first-of-type > input,
+    .sn-adsync-mapping-listitem > .sn-formrow:first-of-type > label {
+        font-size: 1.4em;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+
+    .sn-adsync-mapping-listitem > .sn-formrow:first-of-type > input {
+        color: #007DC6;
+    }
+
+.sn-adsync-mapping-listitem .sn-formrow:first-of-type > input:focus,
+.sn-adsync-mapping-listitem .sn-formrow:first-of-type > input:hover {
+    border-color: #333;
+}
+
+.k-animation-container {
+    margin-left: 10px !important;
+}
+
+.k-widget.k-tooltip-validation {
+    border-color: #c0392b;
+    background-color: #c0392b;
+    color: #fff;
+}
+
+.k-tooltip-validation .k-callout-n {
+    border-bottom-color: #c0392b;
+}
+
+.k-widget.k-tooltip-validation .k-warning {
+    background-position: -176px -240px;
+}
+
+.k-window {
+    padding-top: 30px !important;
+    min-width: 600px !important;
+    max-width: 1200px;
+}
+
+    .k-window .k-window-titlebar.k-header {
+        background-color: #007dc2;
+        margin-top: -2.1em !important;
+    }
+
+    .k-window .k-edit-form-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+        .k-window .k-edit-form-container > .k-edit-field > .sn-formrow > input[type="text"],
+        .k-window .k-edit-form-container > .k-edit-field > .sn-formrow > input[type="password"] {
+            width: 65%; /*falback*/
+            width: calc(100% - 95px);
+        }
+
+        .k-window .k-edit-form-container > .k-edit-field > input[type="text"] {
+            width: 90%; /*fallback*/
+            width: calc(100% - 25px);
+        }
+
+        .k-window .k-edit-form-container .k-edit-field {
+            position: relative;
+        }
+
+        .k-window .k-edit-form-container .sn-field-info {
+            margin-left: 5px;
+            cursor: pointer;
+            position: absolute;
+            top: 8px;
+            right: 0;
+        }
+
+.k-window-content .k-edit-buttons .k-grid-cancel {
+    border: 1px solid #cccccc;
+    background: #f0f0f0;
+    text-transform: capitalize;
+}
+
+.k-window-content .k-edit-buttons .k-grid-update {
+    background: #007dc2;
+    border: solid 1px #007dc2;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+    .k-window-content .k-edit-buttons .k-grid-update .k-update {
+        background-position: -48px -32px;
+    }
+
+.k-window-content .k-edit-buttons .k-icon {
+    display: none;
+}
+
+.k-window-content .k-edit-label {
+    font-weight: bold;
+}
+
+.k-window .k-window-actions {
+    display: none;
+}
+
+.k-icon.k-plus,
+.k-icon.k-minus {
+    background: none;
+}
+
+    .k-icon.k-minus::before {
+        font-family: fontAwesome;
+        content: '\f106';
+        width: 16px;
+        height: 16px;
+        display: block;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: bold;
+    }
+
+    .k-icon.k-plus::before {
+        font-family: fontAwesome;
+        content: '\f107';
+        width: 16px;
+        height: 16px;
+        display: block;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: bold;
+    }
+
+.k-numerictextbox .k-select .k-link span.k-i-arrow-n::before {
+    font-family: fontAwesome;
+    content: '\f106';
+    color: #444;
+    display: block;
+    width: 16px;
+    height: 11px;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.k-numerictextbox .k-select .k-link span.k-i-arrow-s::before {
+    font-family: fontAwesome;
+    content: '\f107';
+    color: #444;
+    display: block;
+    width: 16px;
+    height: 11px;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.k-numerictextbox:hover .k-select .k-link span::before {
+    color: #fff;
+}
