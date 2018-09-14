@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SenseNet.DirectoryServices</id>
+    <version>7.0.0</version>
+    <title>sensenet DirectoryServices</title>
+    <authors>kavics,tusmester</authors>
+    <owners>sensenet</owners>
+    <licenseUrl>https://github.com/SenseNet/sn-adsync/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/SenseNet/sn-adsync</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/SenseNet/sn-resources/master/images/sn-icon/sensenet-icon-64.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>DirectoryServices API for the sensenet platform.</description>
+    <releaseNotes>See release notes on GitHub.</releaseNotes>
+    <copyright>Copyright © Sense/Net Inc.</copyright>
+    <tags>sensenet adsync ad active directory sync</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="9.0.1" />
+      <dependency id="SenseNet.Services" version="7.0.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\SenseNet.DirectoryServices.*" target="lib\net461" />
+  </files>
+</package>

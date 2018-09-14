@@ -7,16 +7,16 @@ using System.Runtime.InteropServices;
 #else
 [assembly: AssemblyTitle("SenseNet.DirectoryServices (Release)")]
 #endif
-[assembly: AssemblyDescription("DirectoryServices api for the sensenet ECM platform.")]
+[assembly: AssemblyDescription("DirectoryServices API for the sensenet platform.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Sense/Net Inc.")]
 [assembly: AssemblyCopyright("Copyright © Sense/Net Inc.")]
-[assembly: AssemblyProduct("sensenet ECM")]
+[assembly: AssemblyProduct("sensenet")]
 [assembly: AssemblyTrademark("Sense/Net Inc.")]
 [assembly: AssemblyCulture("")]
+
 [assembly: AssemblyVersion("7.0.0.0")]
 [assembly: AssemblyFileVersion("7.0.0.0")]
-
 [assembly: AssemblyInformationalVersion("7.0.0")]
 
 [assembly: ComVisible(false)]

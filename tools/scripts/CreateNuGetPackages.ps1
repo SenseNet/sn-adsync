@@ -13,5 +13,6 @@ New-Item $installPackageFolderPortal2AD -Force -ItemType Directory
 Compress-Archive -Path "$srcPath\nuget\snadmin\install-syncad2portal\*" -Force -CompressionLevel Optimal -DestinationPath $installPackageAD2Portal
 Compress-Archive -Path "$srcPath\nuget\snadmin\install-syncportal2ad\*" -Force -CompressionLevel Optimal -DestinationPath $installPackagePortal2AD
 
+nuget pack $srcPath\DirectoryServices\SenseNet.DirectoryServices.nuspec -properties Configuration=Release -OutputDirectory $PSScriptRoot
 nuget pack $srcPath\SyncAD2Portal\SyncAD2Portal.nuspec -properties Configuration=Release -OutputDirectory $PSScriptRoot
-nuget pack $srcPath\SyncPortal2AD\SyncPortal2AD.nuspec -properties Configuration=Release -OutputDirectory $PSScriptRoot
+#nuget pack $srcPath\SyncPortal2AD\SyncPortal2AD.nuspec -properties Configuration=Release -OutputDirectory $PSScriptRoot
