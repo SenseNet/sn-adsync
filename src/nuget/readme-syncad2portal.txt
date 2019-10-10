@@ -3,7 +3,7 @@
                                   Sync AD to Portal
 ************************************************************************************
 
-To finalize the installation and get started with sensenet ECM SyncAD2Portal, please follow these steps:
+To finalize the installation and get started with sensenet ECM SyncAD2Portal, please follow the given steps:
 
 (install guide is accessible online at: http://community.sensenet.com/docs/install-adsync-from-nuget)
 
@@ -11,9 +11,9 @@ To finalize the installation and get started with sensenet ECM SyncAD2Portal, pl
 
 2. Install sensenet ECM Sync AD to Portal using SnAdmin
 
-   - open a command line and go to the \Admin\bin folder
+   - open any command line and go to the \Admin\bin folder
    - execute the install-syncad2portal command with the SnAdmin tool
 
    .\snadmin install-syncad2portal   
 
-For more information and support, please visit http://sensenet.com
+For more information and support or for further queries, please visit http://sensenet.com
