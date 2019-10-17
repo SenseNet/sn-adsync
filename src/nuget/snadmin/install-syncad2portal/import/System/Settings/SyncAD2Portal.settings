@@ -1,86 +1,88 @@
-{  
-   "Enabled":false,
-   "Scheduling": {
-         "Frequency": 60,                                                
-         "ExactTime": ""                           
-   },
-   "ParallelOperations": 10,   
-   "Servers":[  
-      {  
-         "Name":"example.com",
-         "LdapServer":"example.com",
-         "Novell":false,
-         "LogonCredentials":{  
-            "Username":"",
-            "Password":"",
-            "Anonymous":false
-         },
-         "UseSsl":true,
-         "Port":0,
-         "SyncEnabledState":true,
-         "SyncUserName":true,
-         "DeletedPortalObjectsPath":"/Root/IMS/Deleted",
-         "UserType":"User"
-      }
-   ],
-   "SyncTrees":[  
-      {  
-         "Server":"example.com",
-         "BaseDN":"OU=TesztOU,DC=example,DC=com",
-         "PortalPath":"/Root/IMS/example/TesztOU",
-         "ADExceptions":[  ""  ],
-         "UserFilter":"*",
-         "GroupFilter": "*",
-         "ContainerFilter":  "*",
-         "SyncGroups": true,
-         "SyncPhotos": true,
-         "Mappings":"ActiveDirectory"
-      }
-   ],
-   "MappingDefinitions":[  
-      {  
-         "Name":"ActiveDirectory",
-         "Mappings":[  
-            {  
-               "Separator":",",
-               "ADProperties":[  
-                  {  
-                     "Name":"mail",
-                     "Unique":true
-                  }
-               ],
-               "PortalProperties":[  
-                  {  
-                     "Name":"Email",
-                     "Unique":true
-                  }
-               ]
-            },
-            {  
-               "Separator":",",
-               "ADProperties":[  
-                  {  
-                     "Name":"givenName",
-                     "Unique":false,
-                     "MaxLength":100
-                  },
-                  {  
-                     "Name":"sn",
-                     "MaxLength":100
-                  },
-                  {  
-                     "Name":"initials",
-                     "Unique":false,
-                     "MaxLength":6
-                  }
-               ],
-               "PortalProperties":[  
-                  {  
-                     "Name":"FullName"
-                  }
-               ]
+{
+  "Enabled": false,
+  "Scheduling": {
+    "Frequency": 60,
+    "ExactTime": ""
+  },
+  "ParallelOperations": 10,
+  "Servers": [
+    {
+      "Name": "example.com",
+      "LdapServer": "example.com",
+      "Novell": false,
+      "LogonCredentials": {
+        "Username": "",
+        "Password": "",
+        "Anonymous": false
+      },
+      "UseSsl": true,
+      "Port": 0,
+      "SyncEnabledState": true,
+      "SyncUserName": true,
+      "DeletedPortalObjectsPath": "/Root/IMS/Deleted",
+      "UserType": "User"
+    }
+  ],
+  "SyncTrees": [
+    {
+      "Server": "example.com",
+      "BaseDN": "OU=TesztOU,DC=example,DC=com",
+      "PortalPath": "/Root/IMS/example/TesztOU",
+      "ADExceptions": [
+        ""
+      ],
+      "UserFilter": "*",
+      "GroupFilter": "*",
+      "ContainerFilter": "*",
+      "SyncGroups": true,
+      "SyncPhotos": true,
+      "Mappings": "ActiveDirectory"
+    }
+  ],
+  "MappingDefinitions": [
+    {
+      "Name": "ActiveDirectory",
+      "Mappings": [
+        {
+          "Separator": ",",
+          "ADProperties": [
+            {
+              "Name": "mail",
+              "Unique": true
             }
-         ]
-      }
-   ]
+          ],
+          "PortalProperties": [
+            {
+              "Name": "Email",
+              "Unique": true
+            }
+          ]
+        },
+        {
+          "Separator": ",",
+          "ADProperties": [
+            {
+              "Name": "givenName",
+              "Unique": false,
+              "MaxLength": 100
+            },
+            {
+              "Name": "sn",
+              "MaxLength": 100
+            },
+            {
+              "Name": "initials",
+              "Unique": false,
+              "MaxLength": 6
+            }
+          ],
+          "PortalProperties": [
+            {
+              "Name": "FullName"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
