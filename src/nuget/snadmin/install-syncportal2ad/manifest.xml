@@ -1,6 +1,6 @@
 <Package type='Install'>
   <Id>SenseNet.SyncPortal2AD</Id>
-  <Description>sensenet ECM Sync Portal to AD</Description>
+  <Description>sensenet Sync Portal to AD</Description>
   <ReleaseDate>2017-08-22</ReleaseDate>
   <Version>7.0.0</Version>
   <Dependencies>

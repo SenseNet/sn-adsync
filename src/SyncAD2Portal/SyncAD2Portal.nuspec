@@ -3,17 +3,17 @@
   <metadata>
     <id>SenseNet.SyncAD2Portal</id>
     <version>7.0.0</version>
-    <title>sensenet ECM SyncAD2Portal</title>
+    <title>sensenet SyncAD2Portal</title>
     <authors>kavics,aniko,lajos,tusmester</authors>
     <owners>Sense/Net</owners>
     <licenseUrl>https://github.com/SenseNet/sn-adsync/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/SenseNet/sn-adsync</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/SenseNet/sn-resources/master/images/sn-icon/sensenet-icon-64.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Active Directory to Portal synchronization tool for the sensenet ECM platform.</description>
+    <description>Active Directory to Portal synchronization tool for the sensenet platform.</description>
     <releaseNotes>See release notes on GitHub.</releaseNotes>
     <copyright>Copyright © Sense/Net Inc.</copyright>
-    <tags>sensenet ecm ecms ad active directory sync</tags>
+    <tags>sensenet ecms ad active directory sync</tags>
     <dependencies>
       <dependency id="SenseNet.Tools" version="2.1.1" />
     </dependencies>

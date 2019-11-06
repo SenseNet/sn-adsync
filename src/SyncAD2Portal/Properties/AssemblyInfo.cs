@@ -7,11 +7,11 @@ using System.Runtime.InteropServices;
 #else
 [assembly: AssemblyTitle("SenseNet.SyncAD2Portal (Release)")]
 #endif
-[assembly: AssemblyDescription("Tool for synching objects from Active Directory to sensenet ECM.")]
+[assembly: AssemblyDescription("Tool for synching objects from Active Directory to sensenet.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Sense/Net Inc.")]
 [assembly: AssemblyCopyright("Copyright © Sense/Net Inc.")]
-[assembly: AssemblyProduct("sensenet ECM")]
+[assembly: AssemblyProduct("sensenet")]
 [assembly: AssemblyTrademark("Sense/Net Inc.")]
 [assembly: AssemblyCulture("")]
 [assembly: AssemblyVersion("7.0.0.0")]
