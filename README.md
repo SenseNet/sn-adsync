@@ -1,4 +1,4 @@
-# Active Directory snchronization for sensenet
+# Active Directory synchronization for sensenet
 Synchronization between Active Directory and the Content Repository for the [sensenet](https://github.com/SenseNet/sensenet) platform. It handles users, groups, organizational units and memberships too.
 
 [![NuGet](https://img.shields.io/nuget/v/SenseNet.SyncAD2Portal.svg)](https://www.nuget.org/packages/SenseNet.SyncAD2Portal)
