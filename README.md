@@ -1,9 +1,7 @@
-# Active Directory snchronization for sensenet
+# Active Directory synchronization for sensenet
 Synchronization between Active Directory and the Content Repository for the [sensenet](https://github.com/SenseNet/sensenet) platform. It handles users, groups, organizational units and memberships too.
 
-[![Join the chat at https://gitter.im/SenseNet/sn-adsync](https://badges.gitter.im/SenseNet/sn-adsync.svg)](https://gitter.im/SenseNet/sn-adsync?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-[![NuGet](https://img.shields.io/nuget/v/SenseNet.SyncAD2Portal.Install.svg)](https://www.nuget.org/packages/SenseNet.SyncAD2Portal.Install)
+[![NuGet](https://img.shields.io/nuget/v/SenseNet.SyncAD2Portal.svg)](https://www.nuget.org/packages/SenseNet.SyncAD2Portal)
 
 You may install this component even if you only have the **sensenet Services** main component installed. That way you'll get the backend part of the ad sync feature.
 
@@ -11,6 +9,8 @@ If you also have the [sensenet WebPages](https://github.com/SenseNet/sn-webpages
 
 > To find out which packages you need to install, take a look at the available [sensenet components](http://community.sensenet.com/docs/sensenet-components).
 
-## Installation
-To get started, install the AdSync component from NuGet:
-- [Install sensenet AdSync from NuGet](/docs/install-adsync-from-nuget.md)
+# sensenet as a service (SNaaS) - use sensenet from the cloud
+
+For a monthly subscription fee, we store all your content and data, relieving you of all maintenance-related tasks and installation, ensuring easy onboarding, easy updates, and patches.
+
+https://www.sensenet.com/pricing
