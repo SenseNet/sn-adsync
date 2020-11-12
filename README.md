@@ -18,5 +18,3 @@ You may install this component even if you only have the **sensenet Services** m
 If you also have the [sensenet WebPages](https://github.com/SenseNet/sn-webpages) component installed (which gives you a UI framework built on the ASP.NET WebForms technology), you'll also get UI elements for managing the sync process.
 
 > To find out which packages you need to install, take a look at the available [sensenet components](http://community.sensenet.com/docs/sensenet-components).
-
-
